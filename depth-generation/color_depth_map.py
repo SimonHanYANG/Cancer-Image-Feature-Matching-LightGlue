@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
-depth_map_name = 'image_3_3'
+depth_map_name = '1552625623.4131'
 
 # Load the depth map
 depth_map = cv2.imread(f'res\\{depth_map_name}.png', cv2.IMREAD_GRAYSCALE)
