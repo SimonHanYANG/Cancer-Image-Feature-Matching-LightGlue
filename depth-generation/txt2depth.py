@@ -2,8 +2,8 @@
 Author: SimonHanYANG SimonCK666@mail.163.com
 Date: 2023-08-02 12:45:25
 LastEditors: SimonHanYANG SimonCK666@mail.163.com
-LastEditTime: 2023-08-02 12:47:41
-FilePath: \feature-matching\depth-generation\depth_map_generate.py
+LastEditTime: 2023-08-22 16:52:29
+FilePath: \\feature-matching\depth-generation\depth_map_generate.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
 import numpy as np
@@ -15,7 +15,7 @@ depth_path = f'data\\depth_value\\'
 
 img_path = f'data\\image\\'
 # image_0_1 ~ image_3_3
-img_name = f'image_3_3'
+img_name = f'image_3_2'
 
 # 读取 rgb 图像
 rgb_img = cv2.imread(f'{img_path}{img_name}.jpg')
