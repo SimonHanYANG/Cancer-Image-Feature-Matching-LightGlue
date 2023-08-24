@@ -43,11 +43,11 @@ def draw_polygon(event, x, y, flags, param):
             
             if depth_type == "low":
                 # 20-60
-                max_depth = random.randint(100, 150)
+                max_depth = random.randint(40, 60)
                 correct_input = True
             elif depth_type == "high":
                 # 80-255
-                max_depth = random.randint(200, 255)
+                max_depth = random.randint(50, 70)
                 correct_input = True
             else:
                 messagebox.showinfo('Error', '输入错误，请输入 low 或 high')

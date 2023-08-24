@@ -12,7 +12,9 @@ Description: python 读取一个 txt，txt 文件存储是深度图的深度值�
 # The number of non-zero depth values is 271716.
 # The minimum non-zero depth value is 60.0.
 # The maximum depth value is 6045.0.
-with open('data\\video_depth\\frame0_depth_txt.txt', 'r') as file:
+# with open('data\\video_depth\\frame0_depth_txt.txt', 'r') as file:
+with open('data\\depth_value\\552097915.8256_depth_data.txt', 'r') as file:
+    
     # Read all lines into a list
     lines = file.readlines()
 
